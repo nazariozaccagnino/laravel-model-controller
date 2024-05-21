@@ -4,8 +4,14 @@
 
 @section('content')
 <section class="container">
-    <h1>I nostri prodotti</h1>
+    <h1>Movies</h1>
+    @foreach ($movies as $movie)
+    <ul>
+    <li>{{$movie->title}}</li>
+    </ul>
     
+    
+    @endforeach
 </section>
 
 @endsection
