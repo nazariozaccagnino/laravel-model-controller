@@ -14,7 +14,7 @@ use App\Http\Controllers\MovieController;
 |
 */
 
-Route::get('/', [MovieController::class, 'index'])->name('home');
+Route::get('/', [MovieController::class, 'home'])->name('home');
 
 
 Route::get('/about', function () {
