@@ -1,7 +1,4 @@
 <header class="bg-white">
-    <div id="logo" class="text-center">
-        <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="Logo">
-    </div>
     <div id="main-menu">
         <nav class="navbar-nav container navbar-light">
             <ul class="list-unstyled d-flex justify-content-center gap-2 text-uppercase">
