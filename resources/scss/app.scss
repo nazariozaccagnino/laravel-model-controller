@@ -9,17 +9,22 @@ $fa-font-path: "../webfonts" !default;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
-h1{
-    color: $text-color;
-}
+
 main{
+    background-image: url(/resources/img/netflix-bg.jpg);
+    h2{
+        color: $savoy-blue;
+    }
     
 }
 header {
+    background-color: $glaucous;
     .navbar-nav .nav-link.active {
         font-weight: bold;
-        color: $text-color;
+        color: $mint-green;
     }
 }
 footer{
+    background-color: $glaucous;
+    height: 100px;
 }

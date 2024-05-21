@@ -15,8 +15,3 @@ use App\Http\Controllers\MovieController;
 */
 
 Route::get('/', [MovieController::class, 'home'])->name('home');
-
-
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
